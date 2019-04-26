@@ -1,1 +1,92 @@
-* text eol=lf
+## Text to be normalized (Convert crlf => lf)
+
+# Source code
+*.bat text
+*.coffee text
+*.css text
+*.htm text
+*.html text
+*.inc text
+*.ini text
+*.js text
+*.json text
+*.less text
+*.php text
+*.pl text
+*.py text
+*.rb text
+*.sass text
+*.scm text
+*.scss text
+*.sh text
+*.sql text
+*.styl text
+*.svg text
+*.txt text
+*.xml text
+
+# Templates
+*.dot text
+*.ejs text
+*.haml text
+*.hbs text
+*.hbt text
+*.jade text
+*.phtml text
+*.tmpl text
+
+# Server config
+.htaccess text
+
+# Git config
+.gitattributes text
+.gitconfig text
+.gitignore text
+
+# Code analysis config
+.csslintrc text
+.jscsrc text
+.jshintignore text
+.jshintrc text
+
+# Misc config
+*.yaml text
+*.yml text
+.editorconfig text
+
+# Build config
+*.bowerrc text
+*.npmignore text
+
+# Heroku
+.slugignore text
+Procfile text
+
+# Documentation
+*.md text
+AUTHORS text
+LICENSE text
+
+
+## Binary (leave untouched)
+
+# (binary is a macro for -text -diff)
+*.7z binary
+*.eot binary
+*.fla binary
+*.flv binary
+*.gif binary
+*.gz binary
+*.ico binary
+*.jpeg binary
+*.jpg binary
+*.mov binary
+*.mp3 binary
+*.mp4 binary
+*.pdf binary
+*.png binary
+*.pyc binary
+*.swf binary
+*.ttf binary
+*.woff binary
+*.zip binary
