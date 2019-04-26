@@ -1,0 +1,244 @@
+@charset "utf-8";
+
+/**
+ * Misc
+ * - Change default colors to Magento-CI like grey/orange.
+ * - Highlight form elements.
+ * - Custom page styles.
+ * - Changed some images.
+ *
+ * Enhancements
+ * - Catalog Enhancedgrid: Remove commercials.
+ * - System config: (see screenshot).
+ *
+ * @version   Magento 1.5.1.0
+ * @since     Magento 1.4.1.1 / 2010-08-06
+ * @category  design
+ */
+
+
+/* ------------------------------------------------------------------------------------------------------------- MISC */
+/* --------------------------------------------------------------------------------------- Layout */
+
+.header {
+    background: #222;
+}
+
+.header-top {
+    border-bottom: 1px solid #999;
+}
+
+
+/* -------------------------------------------------------------------------------------- Content */
+
+a:hover {
+    color: #FF5D00;
+}
+
+
+/* Top navigation */
+
+.nav-bar {
+    background: none #707070 !important;
+    border-bottom: 1px solid #4F4F4F !important;
+    border-top: 1px solid #4F4F4F !important;
+}
+
+#nav li.over a {
+    color: #FFF;
+}
+
+#nav ul {
+    border-top: 1px solid #4F4F4F;
+}
+
+#nav ul li a {
+    background: #EEE !important;
+}
+
+#nav ul li a:hover {
+    background: #E3E3E3 !important;
+}
+
+#nav li.level0 a:hover {
+    color: #FCCE77 !important;
+}
+
+#nav li.level0 ul li a:hover {
+    color: #000 !important;
+}
+
+
+/* Tabs */
+
+ul.tabs,
+ul.tabs a {
+    background-color: #F2F2F2;
+}
+
+ul.tabs a:hover {
+    background: #FCFCFC;
+}
+
+ul.tabs a.paypal-section:hover {
+    background: #FCFCFC;
+}
+
+ul.tabs a.active span,
+ul.tabs a.active:hover span {
+    background: #FAFAFA;
+}
+
+ul.tabs a.active.paypal-section span {
+    background: url('images/paypal_section.png') no-repeat !important;
+}
+
+ul.tabs-horiz li a:hover {
+    background: #D5D5D5;
+}
+
+ul.config-tabs dt {
+    color: #555;
+    background: none #D0D0D0;
+    border-top: 1px solid #A2A2A2;
+}
+
+
+/* Accordion */
+
+.entry-edit-head.collapseable:hover {
+    background-color: #666;
+}
+
+dl.accordion dt,
+.entry-edit .entry-edit-head {
+    background-color: #707070;
+}
+
+dl.accordion dt a,
+div.collapseable a {
+    background: url('images/entry_edit_head_arrow_down.gif') no-repeat 100% 50%;
+}
+
+dl.accordion dt.open a,
+div.collapseable a.open {
+    background: url('images/entry_edit_head_arrow_up.gif') no-repeat 100% 50%;
+}
+
+
+/* Forms*/
+
+.form-list td.scope-label {
+    color: #929292;
+}
+
+.x-tree-node a:hover span,
+.x-dd-drag-ghost a:hover span {
+    color: #EA7601;
+}
+
+.x-tree-node .x-tree-selected a:hover span {
+    background: #FCBC9C !important;
+    color: #000 !important;
+}
+
+
+/* All */
+
+#page-help-link {
+    background: none;
+    color: #EAEAEA;
+    padding: 0;
+}
+
+.header-right a:hover {
+    color: #FFC44F;
+}
+
+.content-header .content-buttons {
+    margin: 5px 0 0;
+}
+
+.grid tr.filter {
+    background: none #EEE;
+}
+
+.grid tr.headings th.no-link {
+    color: #707070;
+}
+
+.switcher {
+    background: #EFEFEF;
+}
+
+
+/* Form elements */
+
+input[type='text']:hover,
+textarea:hover,
+select:hover {
+    background: #FFF0E7;
+    border-color: #666;
+}
+
+input[type='text']:focus,
+textarea:focus,
+select:focus {
+    background: #FFD3B5;
+    border-color: #333;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------- ENHANCEMENTS */
+/* -------------------------------------------------------------------- Catalog / Manage products */
+
+/**
+ * enhancedgrid/catalog_product/
+ */
+
+.enhancedgrid-catalog-product-index table .a-right iframe {
+    display: none;
+}
+
+
+/* ----------------------------------------------------------------------- System / Configuration */
+
+/**
+ * system_config/edit/section/general
+ */
+
+.adminhtml-system-config-edit fieldset#general_info {
+    display: none;
+}
+
+.adminhtml-system-config-edit fieldset#general_country table.form-list {
+    width: 90%;
+}
+
+.adminhtml-system-config-edit #general_country_allow {
+    font-size: 11px;
+}
+
+.adminhtml-system-config-edit #general_country_allow option {
+    padding: 2px 4px;
+}
+
+
+/**
+ * system_config/edit/section/enhancedgrid/
+ */
+
+.adminhtml-system-config-edit #enhancedgrid_about-head,
+.adminhtml-system-config-edit #enhancedgrid_about {
+    display: none;
+}
+
+
+/**
+ * system_config/edit/section/advanced
+ */
+
+.adminhtml-system-config-edit fieldset#advanced_modules_disable_output select.module-inactive {
+    background: #FFADAD;
+}
+
