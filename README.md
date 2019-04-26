@@ -20,8 +20,6 @@ This is a collection of small Magento CE modifications which are considered more
 
 ## Features
 
-A short feature overview.
-
 ### Adminhtml-Selections
 
 - Allow to select static blocks in admin module configuration.
