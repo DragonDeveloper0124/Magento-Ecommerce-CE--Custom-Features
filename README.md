@@ -1,4 +1,6 @@
-# Magento E-Commerce CE - Custom features
+![Preview](preview.png)
+
+  # Magento E-Commerce CE - Custom features
 
 - [About](#about)
 - [Features](#features)
