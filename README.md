@@ -6,9 +6,11 @@
 - [Features](#features)
 - [License »](/LICENSE.md)
 
+<br>
+
 ---
 
-<br>
+<br><br>
 
 
 ## About
