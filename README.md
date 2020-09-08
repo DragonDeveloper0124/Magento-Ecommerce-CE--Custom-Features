@@ -8,8 +8,6 @@
 
 ---
 
-[![GitHub release](https://img.shields.io/github/release/TheRemoteCoder/Magento-Ecommerce-CE--Custom-Features.svg)](https://github.com/TheRemoteCoder/Magento-Ecommerce-CE--Custom-Features/releases)
-
 <br>
 
 
