@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<ruleset name="PHPCS">
+	<description>PHPCS ruleset</description>
+
+	<!-- Check files in this directory and subdirectories -->
+	<file>.</file>
+
+	<!-- Prevent sniffs of directories -->
+	<exclude-pattern>/vendor/</exclude-pattern>
+
+	<!-- Flags
+	p: Show run progress
+	s: Show sniff codes in all reports
+	v: Print verbose output
+	-->
+	<arg value="psv"/>
+
+	<!-- Define default report type -->
+	<arg name="report" value="summary"/>
+
+	<!-- Enable report colors -->
+	<arg name="colors"/>
+
+	<!-- Only check given filetype -->
+	<arg name="extensions" value="php"/>
+
+</ruleset>
