@@ -4,7 +4,6 @@
 
 - [About](#about)
 - [Features](#features)
-- [License »](/LICENSE.md)
 
 <br>
 
@@ -19,7 +18,7 @@
 
 ## About
 
-This is a collection of small Magento CE modifications which are considered more or less as 'hacks'. They are not written as clean modules. In some cases this might even be impossible todo. Use this code for inspiration or if time and budget is low and you just need to get things done.
+This is a collection of small Magento CE modifications which are considered more or less 'hacks'. They are not written as clean modules. In some cases this might even be impossible to do. Use this code for inspiration or if time and budget is low and you just need to get things done.
 
 
 <br><br>
@@ -28,7 +27,7 @@ This is a collection of small Magento CE modifications which are considered more
 
 ### Adminhtml-Selections
 
-- Allow to select static blocks in admin module configuration.
+- Allow selecting static blocks in admin module configuration.
 - Add the user group 'not logged in' to select fields.
 - [Readme »](/Adminhtml-Selections/README.md)
 
