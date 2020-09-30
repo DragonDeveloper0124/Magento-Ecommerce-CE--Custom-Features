@@ -1,6 +1,6 @@
-![Preview](preview.png)
+![Magento EC – Custom Features](teaser.png)
 
-  # Magento E-Commerce CE
+# Magento E-Commerce CE
 
 - [About](#about)
 - [Features](#features)
@@ -12,14 +12,11 @@
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=TheRemoteCoder_Magento-Ecommerce-CE--Custom-Features&metric=alert_status)](https://sonarcloud.io/dashboard?id=TheRemoteCoder_Magento-Ecommerce-CE--Custom-Features)
 ![Maintenance](https://img.shields.io/badge/maintained-no-lightgrey.svg)
 
-
 <br><br>
-
 
 ## About
 
 This is a collection of small Magento CE modifications which are considered more or less 'hacks'. They are not written as clean modules. In some cases this might even be impossible to do. Use this code for inspiration or if time and budget is low and you just need to get things done.
-
 
 <br><br>
 
@@ -47,4 +44,3 @@ This is a collection of small Magento CE modifications which are considered more
 
 - Example configuration of how to redirect the store depending on the language.
 - [Readme »](/Store-Language-Redirect/README.md)
-

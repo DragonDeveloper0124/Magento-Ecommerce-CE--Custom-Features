@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "bmewburn.vscode-intelephense-client",
+    "editorconfig.editorconfig",
+    "mehedidracula.php-namespace-resolver",
+    "valeryanm.vscode-phpsab",
+  ]
+}
