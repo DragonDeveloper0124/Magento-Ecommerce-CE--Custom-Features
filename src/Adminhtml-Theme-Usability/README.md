@@ -22,6 +22,13 @@ Features
 
 <br><br>
 
+## Examples
+
+![Example](Screenshots/Example.png)
+
+
+<br><br>
+
 ## How to use
 
 1. Create a custom adminhtml theme with design and skin.
