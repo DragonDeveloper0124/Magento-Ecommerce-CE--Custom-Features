@@ -26,21 +26,21 @@ This is a collection of small Magento CE modifications which are considered more
 
 - Allow selecting static blocks in admin module configuration.
 - Add the user group 'not logged in' to select fields.
-- [Readme »](/Adminhtml-Selections/README.md)
+- [Readme »](/src/Adminhtml-Selections/README.md)
 
 ### Adminhtml-Theme-Usability
 
 - Improved backend skin (CI and forms)
 - Large multiselect dropdowns (e.g. countries)
 - Highlight disabled modules in the admin panel.
-- [Readme »](/Adminhtml-Theme-Usability/README.md)
+- [Readme »](/src/Adminhtml-Theme-Usability/README.md)
 
 ### Report-Refresh-User-Statistics
 
 - Added 'Refresh Statistics' menu item to the ACL list.
-- [Readme »](/Report-Refresh-User-Statistics/README.md)
+- [Readme »](/src/Report-Refresh-User-Statistics/README.md)
 
 ### Store-Language-Redirect
 
 - Example configuration of how to redirect the store depending on the language.
-- [Readme »](/Store-Language-Redirect/README.md)
+- [Readme »](/src/Store-Language-Redirect/README.md)
