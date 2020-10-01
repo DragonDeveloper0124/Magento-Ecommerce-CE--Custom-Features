@@ -14,6 +14,13 @@ The menu item 'Refresh Statistics' was missing in the ACL settings. Sometimes it
 
 <br><br>
 
+## Examples
+
+![Example](Screenshots/Example.png)
+
+
+<br><br>
+
 ## How to use
 
 This is a simple single-file modification. Please read the comment in `adminhtml.xml` for installation.
